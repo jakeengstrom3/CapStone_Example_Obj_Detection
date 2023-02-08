@@ -24,8 +24,9 @@ sh setup.sh
 
 ### Run the object detection sample
 *IMPORTANT: If you SSH to the Pi, make sure that:*
-*1. There is a display connected to the Pi.*
-*2. Run `export DISPLAY=:0` before proceed to make the object_detection window appear on the display*
+- *There is a display connected to the Pi.*
+- *Run `export DISPLAY=:0` before proceed to make the object_detection window appear on the display*
+
 python detect.py
 
 
