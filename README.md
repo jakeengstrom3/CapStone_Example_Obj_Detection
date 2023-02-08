@@ -1,6 +1,6 @@
 ##### Forked from https://github.com/tensorflow/examples
 
-# To run on linux:
+# To setup on linux:
 
 ### Check your Python version. You should have Python 3.7 or later.
 python3 --version
@@ -28,6 +28,14 @@ sh setup.sh
 - *Run `export DISPLAY=:0` before proceed to make the object_detection window appear on the display*
 
 python detect.py
+
+# Running after setup
+### Activate Virtual Enviroment
+source ~/tflite/bin/activate
+
+### Run object classification
+
+
 
 
 *If you see an error running the sample: *
